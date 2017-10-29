@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+
+</head>
+<body>
+    <div class="header_container">
+        <div class="header_bar">
+                <div class="header-wrp">
+                    <div class="header-mask-wrp" ></div>
+                    <div class="header-mask"></div>
+                </div>
+                <div class="header_content">
+                    <div class="header_nav">
+                        <ul>
+                            <li class="home">
+                                <a href="//www.bilibili.com/index.html" class="i-link"><span>主站</span></a>
+                            </li>
+                            <li class="hbili">
+                                <a class="i-link" href="http://h.bilibili.com/" title="画友">画友</a>
+                            </li>
+                            <li class="gc">
+                                <a  class="i-link" id="gameCenter" href="//game.bilibili.com/" title="游戏中心">游戏中心</a>
+                            </li>
+                            <li class="live">
+                                <a class="i-link" target="_blank" href="//live.bilibili.com" title="直播">直播</a>
+                            </li>
+                            <li class="ml">
+                                <a class="i-link" target="_blank" href="//show.bilibili.com/platform/home.html" title="会员购">会员购</a>
+                            </li>
+                            <li class="zb">
+                                <a class="i-link" target="_blank" href="//bmall.bilibili.com/#!/" title="周边">周边</a>
+                            </li>
+                            <li class="mobile">
+                                <a class="i-link" target="_blank" href="//app.bilibili.com" title="移动端">移动端</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div class="header" style="background-image: url('image/Fall_header.png');">
+                <div class="header-layer"></div>
+                <a class="header-link" target="_blank" href="//acg.tv/uiUK" data-loc-id="142"></a>
+                <div class="h-center">
+                    <a href="//www.bilibili.com/index.html" class="logo" style="background-image: url('image/Fall_Logo.png');"></a>
+                    <div class="search">
+                        <form id="searchForm" action="//search.bilibili.com/all" target="_blank">
+                            <input class="search-keyword" id="search-keyword" name="keyword" type="text" autocomplete="off" accesskey="s" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="恋爱的味道，你还记得吗" data-recommend="av15288752">
+                            <button class="search-submit" type="submit"></button>
+                        </form>
+                        <a href="//www.bilibili.com/ranking" class="link-ranking" target="_blank"><span>排行榜</span></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="app" class="bili-wrapper">
+        <div class="menu">
+            <ul class="nav-menu">
+                <li class="nav-item home">
+                    <a href="//www.bilibili.com/index.html" class="nav-link">
+                        <div class="nav-name">首页</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/douga.html" class="nav-link">
+                        <div class="num-wrap">
+                        <span class="num">600</span>
+                    </div>
+                        <div class="nav-name">动画</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//bangumi.bilibili.com/22/" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">115</span>
+                        </div>
+                        <div class="nav-name">番剧</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//bangumi.bilibili.com/guochuang/" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">115</span>
+                        </div>
+                        <div class="nav-name">国创</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/music.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">音乐</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/dance.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">149</span>
+                        </div>
+                        <div class="nav-name">舞蹈</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/game.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">游戏</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">科技</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">生活</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">46</span>
+                        </div>
+                        <div class="nav-name">鬼畜</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">497</span>
+                        </div>
+                        <div class="nav-name">时尚</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">154</span>
+                        </div>
+                        <div class="nav-name">广告</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">娱乐</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="//www.bilibili.com/video/technology.html" class="nav-link">
+                        <div class="num-wrap">
+                            <span class="num">999+</span>
+                        </div>
+                        <div class="nav-name">影视</div>
+                    </a>
+                </li>
+                <li class="nav-item side-nav">
+                    <a href="//www.bilibili.com/video/technology.html" class="side-link">
+                        <i class="zhuanlan"></i>
+                        <span>专栏</span>
+                    </a>
+                </li>
+                <li class="nav-item side-nav">
+                    <a href="//www.bilibili.com/video/technology.html" class="side-link">
+                        <i class="square"></i>
+                        <span>广场</span>
+                    </a>
+                </li>
+                <li class="nav-item side-nav">
+                    <a href="//www.bilibili.com/video/technology.html" class="side-link">
+                        <i class="live"></i>
+                        <span>直播</span>
+                    </a>
+                </li>
+                <li class="nav-item side-nav">
+                    <a href="//www.bilibili.com/blackroom/" class="side-link">
+                        <i class="blackroom"></i>
+                        <span>小黑屋</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="gif-menu nav-gif">
+                <a href="http://bangumi.bilibili.com/movie/11870/" target="_blank" title="哆啦A梦" class="random-p">
+                    <img src="image/Menu-GIF.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="chief_recommend">
+            <div class="carousel-box"  >
+                <div class="carousel-module" id="carousel-module">
+                    <div class="panel">
+                        <ul class="pic" id="list" style="margin-left: 0px;">
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/1.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/2.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/3.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/4.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/5.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="scroll on">
+                                <a href="#">
+                                    <div class="lazy-img">
+                                        <img src="image/1.webp" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="title">
+
+                        </ul>
+                        <ul class="trig" id = 'buttons'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="recommend-module">
+                <div class="groom-module">
+                    <a href="#"title="【FGO周年庆】50位英灵带你回顾国服一周年大事件「FATE/GRAND ANNIVERSARY」">
+                        <img src="image/recommend1.jpg" class="pic" alt="【FGO周年庆】50位英灵带你回顾国服一周年大事件「FATE/GRAND ANNIVERSARY」">
+                        <div class="card-mark">
+                            <p class="title">【FGO周年庆】50位英灵带你回顾国服一周年大事件「FATE/GRAND ANNIVERSARY</p>
+                            <p class="author">up主：泛式</p>
+                            <p class="play">播放量:27.1万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【东京塔子】病名为爱【自分裂版】">
+                        <img src="image/recommend2.jpg" class="pic" alt="【东京塔子】病名为爱【自分裂版】">
+                        <div class="card-mark">
+                            <p class="title">【东京塔子】病名为爱【自分裂版】</p>
+                            <p class="author">up主：东京塔子</p>
+                            <p class="play">播放量:9.0万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="凹凸世界手书【雷安】-大小姐和大少爷的反派生涯">
+                        <img src="image/recommend3.jpg" class="pic" alt="凹凸世界手书【雷安】-大小姐和大少爷的反派生涯">
+                        <div class="card-mark">
+                            <p class="title">凹凸世界手书【雷安】-大小姐和大少爷的反派生涯</p>
+                            <p class="author">up主：东山有雀</p>
+                            <p class="play">播放：1.6万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【新番咋了16】喂，110吗？有个仓鼠精把b站炸了！">
+                        <img src="image/recommend4.jpg" class="pic" alt="【新番咋了16】喂，110吗？有个仓鼠精把b站炸了！">
+                        <div class="card-mark">
+                            <p class="title">【新番咋了16】喂，110吗？有个仓鼠精把b站炸了！</p>
+                            <p class="author">up主：凉风有性胖次君</p>
+                            <p class="play">播放：56.8万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【六道笑点】四川方言版小埋R！">
+                        <img src="image/recommend5.jpg" class="pic" alt="【六道笑点】四川方言版小埋R！">
+                        <div class="card-mark">
+                            <p class="title">【六道笑点】四川方言版小埋R！</p>
+                            <p class="author">up主：★⑥檤轮囬★</p>
+                            <p class="play">播放：34.5万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【史图馆】古埃及历代疆域变化">
+                        <img src="image/recommend6.jpg" class="pic" alt="【史图馆】古埃及历代疆域变化">
+                        <div class="card-mark">
+                            <p class="title">【史图馆】古埃及历代疆域变化</p>
+                            <p class="author">up主：幻想浅绿</p>
+                            <p class="play">播放：2.5万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【板绘】画一个抱枕！没有比这更乱来的画法了！但是小姐姐好看就可以啦">
+                        <img src="image/recommend7.jpg" class="pic" alt="【板绘】画一个抱枕！没有比这更乱来的画法了！但是小姐姐好看就可以啦~">
+                        <div class="card-mark">
+                            <p class="title">【板绘】画一个抱枕！没有比这更乱来的画法了！但是小姐姐好看就可以啦~</p>
+                            <p class="author">up主：萱框框</p>
+                            <p class="play">播放：5.1万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+                <div class="groom-module">
+                    <a href="#" title="【新番爱吐槽】兽耳萝莉爱百合，萌妹宅女欢乐多，十月番吐槽第一轮">
+                        <img src="image/recommend8.jpg" class="pic" alt="【新番爱吐槽】兽耳萝莉爱百合，萌妹宅女欢乐多，十月番吐槽第一轮">
+                        <div class="card-mark">
+                            <p class="title">【新番爱吐槽】兽耳萝莉爱百合，萌妹宅女欢乐多，十月番吐槽第一轮</p>
+                            <p class="author">up主：尕丶天堂</p>
+                            <p class="play">播放：15.7万</p>
+                        </div>
+                    </a>
+                    <div class="watch-later-trigger w-later"></div>
+                </div>
+            </div>
+            <br style="clear: both;"/>
+        </div>
+    </div>
+
+    <script  type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/control.js"></script>
+    <script type="text/javascript" src="js/lb.js"></script>
+</body>
+</html>
